@@ -1,4 +1,6 @@
 This project can be used to store user credentials or other stuff locally
+This project is made in very simple c++ and uses no api to resolve the strings
+
 
 notice:
 use mulibyte characterset
