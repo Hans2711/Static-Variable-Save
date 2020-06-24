@@ -30,7 +30,7 @@ std::string getAllVar()//Reads the File into a string
     return str;
 }
 std::string GetVar(std::string VarName);
-void AddVar(std::string VarName, std::string VarContent)//Adds ur updates a variable
+void AddVar(std::string VarName, std::string VarContent)//Adds or updates a variable
 {
     VarContent = encrypt(VarContent);
     if (GetVar(VarName) != "Error")
